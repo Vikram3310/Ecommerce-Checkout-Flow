@@ -7,7 +7,8 @@ public class BaseTest extends DriverSetup {
 
     public void setup(){
         driver = DriverSetup.getDriver();
-        driver.get("https://demo.nopcommerce.com/");
+        driver.get("https://practicesoftwaretesting.com/");
+
     }
     public void tearDown() {
         if (driver != null) {
